@@ -32,7 +32,7 @@ public class DynamicArray {
         size++;
 
     }
-
+    //Method that carry out the push
     public void delete(Object data) {
         for (int i=0; i<size; i++){
             if (array[i] == data){
